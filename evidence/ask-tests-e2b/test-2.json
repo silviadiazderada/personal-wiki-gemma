@@ -1,0 +1,202 @@
+{
+  "test": {
+    "id": "test-2",
+    "kind": "paraphrased (question says \"real estate\", slide says \"land\")",
+    "question": "How did Stanford turn its real estate into an advantage for the tech industry?",
+    "expected_behavior": "answered",
+    "expected_passages": [
+      "week-2-section:s8"
+    ],
+    "also_relevant": [
+      "week-2-section:s6"
+    ],
+    "expected_answer": "Stanford held land it was barred from selling, so Fred Terman leased it, creating Stanford Research Park (1951), the first university-owned industrial park. Firms next to campus recruited students, hired faculty as consultants, funded research and spun out of Stanford labs.\n"
+  },
+  "result": {
+    "question": "How did Stanford turn its real estate into an advantage for the tech industry?",
+    "mode": "local",
+    "model": "gemma4:e2b-it-qat",
+    "retrieval_method": "hybrid: bm25 + embeddinggemma:300m (RRF)",
+    "hits": [
+      {
+        "passage": {
+          "id": "week-2-section:s8",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 8",
+          "number": 8,
+          "title": "What made Stanford different",
+          "text": "What made Stanford different\n• Land it could not sell. Stanford held a large endowment of land it was barred from selling; Fred Terman's answer was to lease it — creating Stanford Research Park (1951), the first university-owned industrial park.\n• Proximity became collaboration. Putting technology firms next to campus created a working loop: companies recruited students, hired faculty as consultants, funded research, and spun out of Stanford labs. Terman had already done this in miniature with Hewlett and Packard.\n• A deliberate tilt toward industry and the military. Terman moved the university's resources into science and engineering and built an applied-engineering culture explicitly to serve the military-industrial complex — where most universities kept industry at arm's length.\nSpeaker notes: One cold call: 'What did Stanford do that a normal research university would not?' Answer: it fused the university with industry and the military on purpose."
+        },
+        "score": 0.032018442622950824,
+        "bm25_rank": 4,
+        "dense_rank": 1,
+        "dense_sim": 0.6648800373077393
+      },
+      {
+        "passage": {
+          "id": "week-5-section:s7",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 7",
+          "number": 7,
+          "title": "Big themes from the readings",
+          "text": "Big themes from the readings\nImmigration\nUniversities draw global talent. Many students intern, get hired and stay.\nThe state\nGovernment funded foundational tech (DARPA, ARPANET, GPS). Mazzucato's argument.\nLabor rules\nCalifornia's non-enforcement of non-competes enabled talent mobility.\nNetworks & capital\nTight networks and VC clustering near Stanford. Each generation funds the next.\nRegional model\nSaxenian: Silicon Valley (open, networked) vs. Route 128 (hierarchical, insular).\nUniversities\nStanford and Berkeley: proximity to faculty, peers and industry."
+        },
+        "score": 0.03125763125763126,
+        "bm25_rank": 3,
+        "dense_rank": 5,
+        "dense_sim": 0.40360522270202637
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s5",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 5 (part 1)",
+          "number": 5,
+          "title": "The five pillars",
+          "text": "The five pillars\n1 · The state / government policy War and great-power competition have driven US innovation for 80 years. Federal and military money — WWII, the Cold War, Vannevar Bush's push for permanent research funding, Sputnik → NASA / ARPA / NDEA — built the foundation. In 1958, ~80% of Fairchild's business was government contracts.\n2 · Research universities They supply the people. Stanford above all — Terman's applied-engineering culture, the Research Park, the faculty–student–industry loop — plus Berkeley, San José State, UCSF (biotech), Santa Clara (law).\n3 · Venture capital Funding for ventures banks would never touch. Georges Doriot (1946), then the federal SBIC program (1958) that leveraged private risk capital, then the Valley's own firms from 1959. Decisive — but an insular network.\n4 · Immigrants ~25% of US high-tech firms had an immigrant founder; ~40% of Valley firms by the internet era; ~44% of Bay Area residents are foreign-born. Berkeley and Stanford are the main pipelines.\n5 · The legal system Valley law firms took equity instead of fees and built the scaffolding — incorporation, term sheets, M&A, IPOs. California's refusal to enforce non-competes keeps talent moving.\nRunning through all five: a transversal counterculture / anti-establishment ethos (see later)."
+        },
+        "score": 0.031054405392392875,
+        "bm25_rank": 7,
+        "dense_rank": 2,
+        "dense_sim": 0.43043965101242065
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s2",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 2",
+          "number": 2,
+          "title": "What we covered this week",
+          "text": "What we covered this week\nWe traced how the region emerged — from orchards to a federally funded research-and-defense economy.\nWe put names to the story — the people who built the region and the institutions behind them.\nWe mapped the unique factors that shaped Silicon Valley and why it’s difficult to find these somewhere else\nWe examined Silicon Valley's less flattering side — structural inequality, the lack of diversity, self-reinforcing advantage, and the gap between the Valley's founding myths and its history.\nWe connected the 1960s Bay Area counterculture to the birth of the personal computer.\nSpeaker notes: Formal phrasing for the 'dark side': structural inequality / lack of diversity / self-reinforcing (vicious-cycle) advantage / myths and their paradoxes."
+        },
+        "score": 0.030834914611005692,
+        "bm25_rank": 2,
+        "dense_rank": 8,
+        "dense_sim": 0.3841700851917267
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s7",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 7",
+          "number": 7,
+          "title": "What did Stanford do that an ordinary research university would not?",
+          "text": "What did Stanford do that an ordinary research university would not?\nOne answer each — then we'll piece it together."
+        },
+        "score": 0.029236022193768675,
+        "bm25_rank": 11,
+        "dense_rank": 6,
+        "dense_sim": 0.39582905173301697
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s6",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 6 (part 1)",
+          "number": 6,
+          "title": "How Silicon Valley emerged",
+          "text": "How Silicon Valley emerged\n• Before the war it was orchards — the “Valley of Heart's Delight” — with a small radio-and-electronics cluster (Federal Telegraph; Hewlett-Packard, 1939).\n• World War II changed the scale. Vannevar Bush's Office of Scientific Research and Development poured federal money into university labs; Stanford's Fred Terman ran a wartime research lab and returned determined to tie Stanford to defense work.\n• The Cold War kept the money flowing — microwave, electronics, missiles. Lockheed Missiles & Space moved to Sunnyvale in 1956 and was the Valley's largest employer for decades.\n• Semiconductors spun out of that ecosystem: Shockley (1956) → Fairchild (1957) → Intel (1968). In 1958, ~80% of Fairchild's revenue came from government contracts.\n• Sputnik (1957) triggered another surge — NASA, ARPA, and the National Defense Education Act (1958): money for space, and for universities.\n• It was never insulated from politics or the business cycle. Defense budgets and the tech stock market rise and fall together — Washington shifts or a recession hits, the Valley lays off and grants dry up, then it booms on the next wave (chips → PCs → internet → AI). O'Mara calls this “boom and bust.”"
+        },
+        "score": 0.029030910609857977,
+        "bm25_rank": 16,
+        "dense_rank": 3,
+        "dense_sim": 0.4207456111907959
+      }
+    ],
+    "raw_output": "{\n  \"claims\": [\n    {\n      \"text\": \"Stanford held a large endowment of land it was barred from selling, and Fred Terman's answer was to lease it, which created Stanford Research Park (1951), the first university-owned industrial park.\",\n      \"citations\": [\n        1\n      ]\n    },\n    {\n      \"text\": \"Proximity between technology firms and the campus created a working loop where companies recruited students, hired faculty as consultants, funded research, and spun out of Stanford labs.\",\n      \"citations\": [\n        1\n      ]\n    },\n    {\n      \"text\": \"Fred Terman moved the university's resources into science and engineering and built an applied-engineering culture explicitly to serve the military-industrial complex, unlike most universities that kept industry at arm's length.\",\n      \"citations\": [\n        1\n      ]\n    }\n  ],\n  \"status\": \"answered\",\n  \"note\": \"The provided passages detail how Stanford leveraged its land and proximity to industry to create a working loop and an applied-engineering culture, which constituted an advantage.\"\n}",
+    "verification": {
+      "status": "answered",
+      "model_status": "answered",
+      "claims": [
+        {
+          "text": "Stanford held a large endowment of land it was barred from selling, and Fred Terman's answer was to lease it, which created Stanford Research Park (1951), the first university-owned industrial park.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        },
+        {
+          "text": "Proximity between technology firms and the campus created a working loop where companies recruited students, hired faculty as consultants, funded research, and spun out of Stanford labs.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        },
+        {
+          "text": "Fred Terman moved the university's resources into science and engineering and built an applied-engineering culture explicitly to serve the military-industrial complex, unlike most universities that kept industry at arm's length.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 0.95,
+          "verdict": "supported"
+        }
+      ],
+      "downgraded": false,
+      "reason": "The provided passages detail how Stanford leveraged its land and proximity to industry to create a working loop and an applied-engineering culture, which constituted an advantage."
+    },
+    "seconds_retrieval": 0.795,
+    "seconds_model": 5.53,
+    "network": "online",
+    "memory": {
+      "ollama_loaded": [
+        {
+          "model": "gemma4:e2b-it-qat",
+          "size_gb": 3.73,
+          "gpu_gb": 3.73
+        },
+        {
+          "model": "embeddinggemma:300m",
+          "size_gb": 0.68,
+          "gpu_gb": 0.68
+        }
+      ],
+      "ollama_process_rss_gb": 0.03,
+      "system_used_gb": 13.46
+    },
+    "model_stats": {
+      "total_duration": 5531961917,
+      "load_duration": 1546000,
+      "prompt_eval_count": 1519,
+      "prompt_eval_duration": 1301601000,
+      "eval_count": 246,
+      "eval_duration": 4215412000
+    }
+  },
+  "auto_assessment": {
+    "retrieval_found_expected": true,
+    "expected_passage_ranks": {
+      "week-2-section:s8": 1
+    },
+    "behavior_expected": "answered",
+    "behavior_actual": "answered",
+    "behavior_ok": true,
+    "cites_expected_passage": true,
+    "all_claims_supported": true
+  }
+}

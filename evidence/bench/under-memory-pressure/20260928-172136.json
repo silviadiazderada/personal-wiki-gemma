@@ -1,0 +1,35 @@
+{
+  "device": {
+    "os": "macOS 26.5.1",
+    "chip": "Apple M5",
+    "memory_total_gb": 16.0,
+    "memory_available_gb": 1.2,
+    "disk_free_gb": 187.8
+  },
+  "rows": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "cold_answer_s": 47.92,
+      "load_s": 13.9,
+      "warm_answer_s": 17.93,
+      "tokens_per_s": 10.2,
+      "prompt_tokens": 1726,
+      "ollama_model_memory_gb": 3.59,
+      "system_mem_increase_gb": 2.18,
+      "system_mem_peak_gb": 14.45,
+      "status": "answered"
+    },
+    {
+      "model": "gemma4:e4b-it-qat",
+      "cold_answer_s": 63.28,
+      "load_s": 19.25,
+      "warm_answer_s": 30.23,
+      "tokens_per_s": 6.1,
+      "prompt_tokens": 1726,
+      "ollama_model_memory_gb": 5.41,
+      "system_mem_increase_gb": 3.0,
+      "system_mem_peak_gb": 14.9,
+      "status": "answered"
+    }
+  ]
+}

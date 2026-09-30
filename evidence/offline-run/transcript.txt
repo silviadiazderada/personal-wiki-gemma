@@ -1,0 +1,223 @@
+# Offline demonstration transcript (2026-09-29 19:51 PDT)
+
+$ wiki --help
+Usage: wiki [OPTIONS] COMMAND [ARGS]...
+
+  POLECON 156 personal wiki: a local Gemma + RAG CLI. Works offline after
+  setup.
+
+  Commands
+    ingest   read sources in vault/raw/, generate linked wiki notes, rebuild the index
+    search   show original matching passages and paths (no AI answer, no model needed)
+    ask      neutral, cited answer from the sources only, or "insufficient evidence"
+    chat     personal assistant (Sol) with conversation memory; looks up notes only when needed
+    eval     run the fixed ask-mode tests and chat/search mode checks, save evidence cards
+    bench    measure memory and response time for one or more local models
+    status   show model, runtime, index and network status
+    merge    fold a duplicate note into another (cleanup; survives re-ingest)
+    rename   give a note a better name (cleanup; survives re-ingest)
+
+  Configuration: config.toml (model, embedding model, context size, retrieval settings)
+  Required: Ollama running locally with the configured models pulled (see README).
+  Local mode is the default. `--mode online` is an optional extension (needs GEMINI_API_KEY).
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  ingest  Read local sources, generate linked wiki pages, and update the...
+  merge   Merge a duplicate note into another; links, index and future...
+  rename  Rename a note (file, heading, incoming links); future...
+  search  Show original matching passages and source paths.
+  ask     Standalone factual answer with citations, or 'insufficient...
+  chat    Personal assistant with conversation context.
+  eval    Run the fixed test set and mode checks; write evidence cards to...
+  bench   Measure load time, memory and response time for a RAG answer on...
+  status  Show model, runtime, index and network status.
+
+$ wiki status
+                                                         status                                                         
+┌─────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ runtime             │ Ollama 0.34.4 at http://127.0.0.1:11434                                                        │
+│ model               │ gemma4:e4b-it-qat ✓ downloaded                                                                 │
+│ model               │ embeddinggemma:300m ✓ downloaded                                                               │
+│ index               │ {'built_at': '2026-09-29 08:59:59', 'passages': 77, 'sources': 47, 'wiki': 30, 'embed_model':  │
+│                     │ 'embeddinggemma:300m'}                                                                         │
+│ network             │ offline                                                                                        │
+│ os                  │ macOS 26.5.1                                                                                   │
+│ chip                │ Apple M5                                                                                       │
+│ memory_total_gb     │ 16.0                                                                                           │
+│ memory_available_gb │ 3.7                                                                                            │
+│ disk_free_gb        │ 184.8                                                                                          │
+└─────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+$ wiki ingest vault/raw/POLECON156_Week4_Reflection.pptx --force
+model: gemma4:e4b-it-qat · execution: local · network: offline
+  → Week 4 Reflection: 1 passages, asking gemma4:e4b-it-qat for topics…
+  ↔ linking Government Funding
+  ↔ linking Jeff Bezos
+  ↔ linking Sergey Brin and Larry Page
+  ⌕ rebuilding retrieval index (sources + wiki notes)…
+                                                    Ingestion report                                                    
+┌─────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ sources         │ week-4-reflection                                                                                  │
+│ skipped_sources │ —                                                                                                  │
+│ created         │ —                                                                                                  │
+│ updated         │ Jeff Bezos, Sergey Brin and Larry Page, Government Funding                                         │
+│ merged          │ —                                                                                                  │
+│ removed         │ —                                                                                                  │
+│ kept_reviewed   │ Venture Capital, Counterculture Ethos, Legal System, Silicon Valley Pioneers, Five Pillars of      │
+│                 │ Silicon Valley, Origins of Silicon Valley, Silicon Valley vs Route 128, Midterm Themes, Immigrant  │
+│                 │ Founders, Vannevar Bush, Fred Terman, SBIC Program, Non-Compete Agreements, Janet Yellen, Sergey   │
+│                 │ Brin and Larry Page, Government Funding, Jeff Bezos                                                │
+│ rejected_titles │ Written Reflection                                                                                 │
+│ notes in wiki   │ 26                                                                                                 │
+│ files written   │ 0                                                                                                  │
+│ index           │ 47 source passages + 30 wiki notes (embeddings: embeddinggemma:300m)                               │
+│ time            │ 70.1s total, 42.5s in the model                                                                    │
+└─────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+$ wiki eval --label offline
+model: gemma4:e4b-it-qat · execution: local · network: offline
+test-1 What was the SBIC program and how did it multiply venture capital?
+  → answered · retrieval ok: True · behavior ok: True · 20.5s · saved ask-tests-offline/test-1.md
+test-2 How did Stanford turn its real estate into an advantage for the tech industry?
+  → answered · retrieval ok: True · behavior ok: True · 13.09s · saved ask-tests-offline/test-2.md
+test-3 How did California's treatment of non-compete agreements shape Silicon Valley?
+  → answered · retrieval ok: True · behavior ok: True · 19.47s · saved ask-tests-offline/test-3.md
+test-4 What was the U.S. capital gains tax rate in 1990?
+  → insufficient_evidence · retrieval ok: None · behavior ok: True · 10.08s · saved ask-tests-offline/test-4.md
+you › what can we do?
+sol › Hi! I'm Sol, Silvia's teaching assistant for POLECON 156. I can help you brainstorm, draft, and plan things for 
+the course.
+
+Specifically, I can assist with:
+*   **Section planning:** Creating agendas, discussion questions, and reflection prompts.
+*   **Content review:** Looking up and summarizing material from Silvia's section slides (Weeks 2-5) using the `wiki` 
+commands.
+*   **Draft refinement:** Revisiting and polishing anything we write together (e.g., "make that shorter," "more 
+formal").
+*   **Workflow guidance:** Pointing you to the right tools, like `wiki ask` or `wiki search`.
+
+Just let me know what you're working on!
+rule: conversational / capability / edit request · retrieved=False
+you › what can you help me with?
+sol › I can help you plan and refine materials for POLECON 156. I can draft section agendas, discussion questions, and 
+review prompts based on the course slides, or I can help you revise anything we write together.
+
+If you need specific course content, I can look it up in the section notes using commands like `wiki ask` or `wiki 
+search`.
+
+What's on your mind?
+rule: conversational / capability / edit request · retrieved=False
+you › Draft a short plan for my 50-minute midterm review section.
+sol › Here is a draft plan for your 50-minute Midterm Review section. I've structured it to cover the key logistical 
+points and dedicate time to thematic review.
+
+**Midterm Review Section Plan (50 Minutes)**
+
+1.  **Logistics & Format Review (5 min):**
+    *   Confirm the exam details: Thursday 10/1, during lecture [2].
+    *   Reiterate format: Open note and open book [2].
+    *   Remind students to bring their spiral notebook, Course Reader, and *The Code* [2].
+2.  **Thematic Deep Dive (30 min):**
+    *   Focus on "big-picture themes" as the exam will cover these, not many short answers [2].
+    *   *Suggestion:* Dedicate time to quickly review the main themes covered in Weeks 1-4.
+3.  **Q&A / Open Discussion (10 min):**
+    *   Address student questions regarding concepts or study strategies.
+4.  **Wrap-up & Next Steps (5 min):**
+    *   Briefly mention the next major deadlines (e.g., Start-Up Proposal due Sun 10/11) [4].
+
+How does that look? We can adjust the time allocation if you want more focus on a specific topic.
+model router · retrieved=True
+you › make that shorter
+sol › Here is a more concise version:
+
+**Midterm Review (50 Min)**
+
+1.  **Logistics (5 min):** Exam details (Date, Format, Materials needed) [Midterm Exam, wiki note].
+2.  **Thematic Review (30 min):** Focus on big-picture themes from Weeks 1-4 [Midterm Exam, wiki note].
+3.  **Q&A (10 min):** Open floor for student questions.
+4.  **Wrap-up (5 min):** Next deadlines (e.g., Start-Up Proposal) [Week 5 Section, slide 12].
+
+Let me know if you want me to draft specific discussion questions for the thematic review!
+rule: conversational / capability / edit request · retrieved=False
+you › Just so you know, Stanford Research Park was founded in 1975.
+sol › Thanks for letting me know. I'll keep that in mind. If you need to reference specific dates or historical context 
+for the course material, just let me know!
+model router · retrieved=False
+search Stanford Research Park
+ask › Stanford Research Park was created in 1951 after Fred Terman leased land that Stanford was barred from selling.
+saved evidence/mode-checks-offline/mode-checks.md
+
+$ wiki search "Stanford land lease" -k 3 --save
+search · retrieval: hybrid: bm25 + embeddinggemma:300m (RRF) · no language model used
+╭─ [1] Week 2 Section, slide 8 · source ───────────────────────────────────────────────────────────────────────────────╮
+│ What made Stanford different                                                                                         │
+│ • Land it could not sell. Stanford held a large endowment of land it was barred from selling; Fred Terman's answer   │
+│ was to lease it — creating Stanford Research Park (1951), the first university-owned industrial park.                │
+│ • Proximity became collaboration. Putting technology firms next to campus created a working loop: companies          │
+│ recruited students, hired faculty as consultants, funded research, and spun out of Stanford labs. Terman had already │
+│ done this in miniature with Hewlett and Packard.                                                                     │
+│ • A deliberate tilt toward industry and the military. Terman moved the university's resources into science and       │
+│ engineering and built an applied-engineering culture explicitly to serve the military-industrial complex — where     │
+│ most universities kept industry at arm's length.                                                                     │
+│ Speaker notes: One cold call: 'What did Stanford do that a normal research university would not?' Answer: it fused   │
+│ the university with industry and the military on purpose.                                                            │
+╰─ vault/raw/POLECON156_Week2_DiscussionSection.pptx · id week-2-section:s8 · cosine 0.55 ─────────────────────────────╯
+╭─ [2] Stanford Research Park, wiki note · wiki note (generated) ──────────────────────────────────────────────────────╮
+│ # Stanford Research Park                                                                                             │
+│                                                                                                                      │
+│ Stanford Research Park is the first university-owned industrial park, created by leasing land that Stanford was      │
+│ barred from selling.                                                                                                 │
+│                                                                                                                      │
+│ ## Key points                                                                                                        │
+│ - Stanford held a large endowment of land it was barred from selling, which Terman leased to create the Research     │
+│ Park in 1951. (Week 2 Section, slide 8)                                                                              │
+│                                                                                                                      │
+│ ## Related notes                                                                                                     │
+│ - Fred Terman: Fred Terman created Stanford Research Park by leasing land that Stanford was barred from selling.     │
+│                                                                                                                      │
+│ ## Sources                                                                                                           │
+│ - Original slides: POLECON156_Week2_DiscussionSection.pptx · session note: Week 2 Section                            │
+╰─ vault/wiki/Organizations/Stanford Research Park.md · id wiki:stanford-research-park · cosine 0.62 ──────────────────╯
+╭─ [3] Fred Terman, wiki note · wiki note (generated) ─────────────────────────────────────────────────────────────────╮
+│ # Fred Terman                                                                                                        │
+│                                                                                                                      │
+│ Fred Terman is recognized as the 'Father of Silicon Valley' for establishing the model of linking academia with      │
+│ industry at Stanford.                                                                                                │
+│                                                                                                                      │
+│ ## Key points                                                                                                        │
+│ - Fred Terman ran a wartime research lab and returned determined to tie Stanford to defense work. (Week 2 Section,   │
+│ slide 6)                                                                                                             │
+│ - Terman created Stanford Research Park (1951), the first university-owned industrial park. (Week 2 Section, slide   │
+│ 8)                                                                                                                   │
+│ - He brought the MIT military/industry model to Stanford, fostering an applied-engineering culture. (Week 2 Section, │
+│ slide 12)                                                                                                            │
+│                                                                                                                      │
+│ ## Related notes                                                                                                     │
+│ - Stanford Research Park: Fred Terman created Stanford Research Park, the first university-owned industrial park.    │
+│ - Silicon Valley Pioneers: Terman is profiled there as the 'Father of Silicon Valley'.                               │
+│ - Vannevar Bush: Bush's wartime federal R&D money flowed into university labs like Terman's (slide 6).               │
+│                                                                                                                      │
+│ ## Sources                                                                                                           │
+│ - Original slides: POLECON156_Week2_DiscussionSection.pptx · session note: Week 2 Section                            │
+╰─ vault/wiki/People/Fred Terman.md · id wiki:fred-terman · cosine 0.44 ───────────────────────────────────────────────╯
+saved evidence/runs/20260929-195507-search.md
+
+$ wiki ask "Where did students have to upload their Week 2 reflection?" --save
+model: gemma4:e4b-it-qat · execution: local · network: offline
+╭─────────────────────────────────────────────────────── answer ───────────────────────────────────────────────────────╮
+│                                                                                                                      │
+│  • Students had to upload their Week 2 reflection to bCourses under this week's reflection. [1]                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+                                           citations                                           
+┏━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃ # ┃ citation                ┃ file                                              ┃ check     ┃
+┡━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│ 1 │ Week 2 Section, slide 9 │ vault/raw/POLECON156_Week2_DiscussionSection.pptx │ supported │
+└───┴─────────────────────────┴───────────────────────────────────────────────────┴───────────┘
+retrieval: hybrid: bm25 + embeddinggemma:300m (RRF) (0.048s) · model gemma4:e4b-it-qat (local) 9.91s · checks: 1/1 
+claims supported
+saved evidence/runs/20260929-195517-ask.md
+

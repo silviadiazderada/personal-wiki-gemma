@@ -1,0 +1,175 @@
+{
+  "test": null,
+  "result": {
+    "question": "Why don't non-compete agreements hold back Silicon Valley?",
+    "mode": "local",
+    "model": "gemma4:e4b-it-qat",
+    "retrieval_method": "hybrid: bm25 + embeddinggemma:300m (RRF)",
+    "hits": [
+      {
+        "passage": {
+          "id": "week-5-section:s7",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 7",
+          "number": 7,
+          "title": "Big themes from the readings",
+          "text": "Big themes from the readings\nImmigration\nUniversities draw global talent. Many students intern, get hired and stay.\nThe state\nGovernment funded foundational tech (DARPA, ARPANET, GPS). Mazzucato's argument.\nLabor rules\nCalifornia's non-enforcement of non-competes enabled talent mobility.\nNetworks & capital\nTight networks and VC clustering near Stanford. Each generation funds the next.\nRegional model\nSaxenian: Silicon Valley (open, networked) vs. Route 128 (hierarchical, insular).\nUniversities\nStanford and Berkeley: proximity to faculty, peers and industry."
+        },
+        "score": 0.031054405392392875,
+        "bm25_rank": 2,
+        "dense_rank": 7,
+        "dense_sim": 0.3863612711429596
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s15",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 15 (part 1)",
+          "number": 15,
+          "title": "Immigrants and the legal system",
+          "text": "Immigrants and the legal system\nTHE LEGAL SYSTEM\n• Valley firms took equity instead of fees from cash-poor startups — the same risk mindset as a VC, and skin in the founder's game.\n• They built the scaffolding: incorporation, bylaws, hiring contracts, term sheets, M&A, IPOs. Wall Street firms couldn't adapt; Valley-native firms (Wilson Sonsini — Larry Sonsini, Cal grad) still dominate.\n• Conflict of interest is built in — the same firm may draft the term sheet for the investors across the table. “If there's no conflict, there's no interest.”\n• California won't enforce non-competes (full ban since 2024; still enforceable in New York) → engineers job-hop → ideas and talent cross-pollinate → more dynamic than Boston's Route 128.\nIMMIGRANTS\n• ~25% of US high-tech firms had an immigrant founder; ~40% of Valley firms by the internet era.\n• ~44% of Bay Area residents are foreign-born; ~38% of AI engineers are Chinese-born.\n• Berkeley and Stanford are the main talent pipelines; fully-funded STEM PhDs draw top talent on merit.\n• The vulnerability: tightening student visas and work authorization directly benefits China's AI sector.\nClosing question: does the Valley's reliance on immigrant founders make it stronger, or more vulnerable, as a global tech leader?"
+        },
+        "score": 0.030886196246139225,
+        "bm25_rank": 9,
+        "dense_rank": 1,
+        "dense_sim": 0.5512614250183105
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s5",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 5 (part 1)",
+          "number": 5,
+          "title": "The five pillars",
+          "text": "The five pillars\n1 · The state / government policy War and great-power competition have driven US innovation for 80 years. Federal and military money — WWII, the Cold War, Vannevar Bush's push for permanent research funding, Sputnik → NASA / ARPA / NDEA — built the foundation. In 1958, ~80% of Fairchild's business was government contracts.\n2 · Research universities They supply the people. Stanford above all — Terman's applied-engineering culture, the Research Park, the faculty–student–industry loop — plus Berkeley, San José State, UCSF (biotech), Santa Clara (law).\n3 · Venture capital Funding for ventures banks would never touch. Georges Doriot (1946), then the federal SBIC program (1958) that leveraged private risk capital, then the Valley's own firms from 1959. Decisive — but an insular network.\n4 · Immigrants ~25% of US high-tech firms had an immigrant founder; ~40% of Valley firms by the internet era; ~44% of Bay Area residents are foreign-born. Berkeley and Stanford are the main pipelines.\n5 · The legal system Valley law firms took equity instead of fees and built the scaffolding — incorporation, term sheets, M&A, IPOs. California's refusal to enforce non-competes keeps talent moving.\nRunning through all five: a transversal counterculture / anti-establishment ethos (see later)."
+        },
+        "score": 0.030158730158730156,
+        "bm25_rank": 10,
+        "dense_rank": 3,
+        "dense_sim": 0.4495197534561157
+      },
+      {
+        "passage": {
+          "id": "week-5-section:s10",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 10",
+          "number": 10,
+          "title": "Practice essay questions",
+          "text": "Practice essay questions\nWhy did Silicon Valley emerge and endure? Choose three factors and show how they reinforce each other.\nIs the Silicon Valley story one of free markets alone? Use the role of the state in your answer.\nCompare Silicon Valley and Route 128. What explains the different outcomes?\nHow do universities and immigration work together to build the region?\nHow do networks shape who gets capital and opportunity?\nHow did California's labor rules affect the region?"
+        },
+        "score": 0.029709507042253523,
+        "bm25_rank": 11,
+        "dense_rank": 4,
+        "dense_sim": 0.44676750898361206
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s2",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 2",
+          "number": 2,
+          "title": "What we covered this week",
+          "text": "What we covered this week\nWe traced how the region emerged — from orchards to a federally funded research-and-defense economy.\nWe put names to the story — the people who built the region and the institutions behind them.\nWe mapped the unique factors that shaped Silicon Valley and why it’s difficult to find these somewhere else\nWe examined Silicon Valley's less flattering side — structural inequality, the lack of diversity, self-reinforcing advantage, and the gap between the Valley's founding myths and its history.\nWe connected the 1960s Bay Area counterculture to the birth of the personal computer.\nSpeaker notes: Formal phrasing for the 'dark side': structural inequality / lack of diversity / self-reinforcing (vicious-cycle) advantage / myths and their paradoxes."
+        },
+        "score": 0.029116045245077504,
+        "bm25_rank": 17,
+        "dense_rank": 2,
+        "dense_sim": 0.46415209770202637
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s9",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 9",
+          "number": 9,
+          "title": "Written reflection",
+          "text": "Written reflection\nTODAY'S PROMPT\nWhy was the venture capital industry so critical to Silicon Valley's rise?\nAnd, according to the first three chapters of The Code, what was the first “venture capitalist” entity in Silicon Valley?\nInstructions\n• 7 minutes (+2 to upload)\n• Handwritten in your spiral notebook — no devices, open-book.\n• One short paragraph per question — BOTH answers on the SAME single page.\n• When you're done, take a photo and upload it to bCourses under this week's reflection.\nSpeaker notes: Reflection is graded randomly — students don't know which weeks. 4 pts (2 quality of answers, 2 thoughtfulness). Reinforce verbally: ONE page, both answers. The 'entity' wording nudges them past just naming a person."
+        },
+        "score": 0.028850145288501453,
+        "bm25_rank": 6,
+        "dense_rank": 13,
+        "dense_sim": 0.34019792079925537
+      }
+    ],
+    "raw_output": "{\n\"claims\": [\n    {\n        \"text\": \"California does not enforce non-competes, which has resulted in engineers job-hopping, allowing ideas and talent to cross-pollinate, making the area more dynamic than Boston's Route 128 [2].\",\n        \"citations\": [2]\n    },\n    {\n        \"text\": \"California's non-enforcement of non-competes enabled talent mobility [1].\",\n        \"citations\": [1]\n    },\n    {\n        \"text\": \"California's refusal to enforce non-competes keeps talent moving [3].\",\n        \"citations\": [3]\n    }\n],\n\"status\": \"answered\",\"note\": \"\"\n}",
+    "verification": {
+      "status": "answered",
+      "model_status": "answered",
+      "claims": [
+        {
+          "text": "California does not enforce non-competes, which has resulted in engineers job-hopping, allowing ideas and talent to cross-pollinate, making the area more dynamic than Boston's Route 128.",
+          "citations": [
+            2
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 0.8,
+          "verdict": "supported"
+        },
+        {
+          "text": "California's non-enforcement of non-competes enabled talent mobility.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        },
+        {
+          "text": "California's refusal to enforce non-competes keeps talent moving.",
+          "citations": [
+            3
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        }
+      ],
+      "downgraded": false,
+      "reason": ""
+    },
+    "seconds_retrieval": 1.428,
+    "seconds_model": 27.42,
+    "network": "offline",
+    "memory": {
+      "ollama_loaded": [
+        {
+          "model": "gemma4:e4b-it-qat",
+          "size_gb": 3.1,
+          "gpu_gb": 3.1
+        }
+      ],
+      "ollama_process_rss_gb": 0.02,
+      "system_used_gb": 14.35
+    },
+    "model_stats": {
+      "total_duration": 27376559958,
+      "load_duration": 7478260167,
+      "prompt_eval_count": 1594,
+      "prompt_eval_duration": 6281085000,
+      "eval_count": 167,
+      "eval_duration": 13564108000
+    }
+  },
+  "auto_assessment": {}
+}

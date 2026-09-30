@@ -1,0 +1,26 @@
+# Personal Wiki CLI configuration. Local mode is the default and needs no internet.
+
+[local]
+runtime_url = "http://127.0.0.1:11434"   # Ollama's local HTTP API
+model = "gemma4:e4b-it-qat"              # generation model (see README: model choice)
+embed_model = "embeddinggemma:300m"      # local embedding model for semantic retrieval
+num_ctx = 8192                           # context window we ask Ollama to allocate
+ingest_num_ctx = 16384                   # ingestion sends a whole deck, so it needs more room
+temperature = 0.2                        # low temperature: fewer invented details
+keep_alive = "10m"                       # keep the model loaded between calls
+seed = 42                                # fixed sampling seed so runs are repeatable
+
+[online]
+# Optional extension. Never used unless you pass --mode online.
+api_url = "https://generativelanguage.googleapis.com/v1beta"
+model = "gemma-3-27b-it"
+api_key_env = "GEMINI_API_KEY"
+
+[retrieval]
+top_k = 6               # passages shown to the model in ask mode
+chat_top_k = 4          # passages injected in chat when the router asks for notes
+max_passage_words = 220 # long slides are split into parts no longer than this
+rrf_k = 60              # reciprocal-rank-fusion constant for merging BM25 + embeddings
+
+[chat]
+history_turns = 8       # most recent user/assistant turns kept as conversation context

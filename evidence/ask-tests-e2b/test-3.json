@@ -1,0 +1,186 @@
+{
+  "test": {
+    "id": "test-3",
+    "kind": "connects two sources",
+    "question": "How did California's treatment of non-compete agreements shape Silicon Valley?",
+    "expected_behavior": "answered",
+    "expected_passages": [
+      "week-2-section:s15",
+      "week-5-section:s7"
+    ],
+    "also_relevant": [
+      "week-2-section:s5"
+    ],
+    "expected_answer": "California does not enforce non-competes (a full ban since 2024), so engineers job-hop and ideas and talent cross-pollinate, making the Valley more dynamic than Boston's Route 128. The Week 5 midterm themes list this \"labor rules\" point as enabling talent mobility.\n"
+  },
+  "result": {
+    "question": "How did California's treatment of non-compete agreements shape Silicon Valley?",
+    "mode": "local",
+    "model": "gemma4:e2b-it-qat",
+    "retrieval_method": "hybrid: bm25 + embeddinggemma:300m (RRF)",
+    "hits": [
+      {
+        "passage": {
+          "id": "week-5-section:s10",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 10",
+          "number": 10,
+          "title": "Practice essay questions",
+          "text": "Practice essay questions\nWhy did Silicon Valley emerge and endure? Choose three factors and show how they reinforce each other.\nIs the Silicon Valley story one of free markets alone? Use the role of the state in your answer.\nCompare Silicon Valley and Route 128. What explains the different outcomes?\nHow do universities and immigration work together to build the region?\nHow do networks shape who gets capital and opportunity?\nHow did California's labor rules affect the region?"
+        },
+        "score": 0.032018442622950824,
+        "bm25_rank": 1,
+        "dense_rank": 4,
+        "dense_sim": 0.4731905162334442
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s15",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 15 (part 1)",
+          "number": 15,
+          "title": "Immigrants and the legal system",
+          "text": "Immigrants and the legal system\nTHE LEGAL SYSTEM\n• Valley firms took equity instead of fees from cash-poor startups — the same risk mindset as a VC, and skin in the founder's game.\n• They built the scaffolding: incorporation, bylaws, hiring contracts, term sheets, M&A, IPOs. Wall Street firms couldn't adapt; Valley-native firms (Wilson Sonsini — Larry Sonsini, Cal grad) still dominate.\n• Conflict of interest is built in — the same firm may draft the term sheet for the investors across the table. “If there's no conflict, there's no interest.”\n• California won't enforce non-competes (full ban since 2024; still enforceable in New York) → engineers job-hop → ideas and talent cross-pollinate → more dynamic than Boston's Route 128.\nIMMIGRANTS\n• ~25% of US high-tech firms had an immigrant founder; ~40% of Valley firms by the internet era.\n• ~44% of Bay Area residents are foreign-born; ~38% of AI engineers are Chinese-born.\n• Berkeley and Stanford are the main talent pipelines; fully-funded STEM PhDs draw top talent on merit.\n• The vulnerability: tightening student visas and work authorization directly benefits China's AI sector.\nClosing question: does the Valley's reliance on immigrant founders make it stronger, or more vulnerable, as a global tech leader?"
+        },
+        "score": 0.03131881575727918,
+        "bm25_rank": 7,
+        "dense_rank": 1,
+        "dense_sim": 0.5662986636161804
+      },
+      {
+        "passage": {
+          "id": "week-5-section:s7",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 7",
+          "number": 7,
+          "title": "Big themes from the readings",
+          "text": "Big themes from the readings\nImmigration\nUniversities draw global talent. Many students intern, get hired and stay.\nThe state\nGovernment funded foundational tech (DARPA, ARPANET, GPS). Mazzucato's argument.\nLabor rules\nCalifornia's non-enforcement of non-competes enabled talent mobility.\nNetworks & capital\nTight networks and VC clustering near Stanford. Each generation funds the next.\nRegional model\nSaxenian: Silicon Valley (open, networked) vs. Route 128 (hierarchical, insular).\nUniversities\nStanford and Berkeley: proximity to faculty, peers and industry."
+        },
+        "score": 0.030834914611005692,
+        "bm25_rank": 2,
+        "dense_rank": 8,
+        "dense_sim": 0.3980482816696167
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s5",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 5 (part 1)",
+          "number": 5,
+          "title": "The five pillars",
+          "text": "The five pillars\n1 · The state / government policy War and great-power competition have driven US innovation for 80 years. Federal and military money — WWII, the Cold War, Vannevar Bush's push for permanent research funding, Sputnik → NASA / ARPA / NDEA — built the foundation. In 1958, ~80% of Fairchild's business was government contracts.\n2 · Research universities They supply the people. Stanford above all — Terman's applied-engineering culture, the Research Park, the faculty–student–industry loop — plus Berkeley, San José State, UCSF (biotech), Santa Clara (law).\n3 · Venture capital Funding for ventures banks would never touch. Georges Doriot (1946), then the federal SBIC program (1958) that leveraged private risk capital, then the Valley's own firms from 1959. Decisive — but an insular network.\n4 · Immigrants ~25% of US high-tech firms had an immigrant founder; ~40% of Valley firms by the internet era; ~44% of Bay Area residents are foreign-born. Berkeley and Stanford are the main pipelines.\n5 · The legal system Valley law firms took equity instead of fees and built the scaffolding — incorporation, term sheets, M&A, IPOs. California's refusal to enforce non-competes keeps talent moving.\nRunning through all five: a transversal counterculture / anti-establishment ethos (see later)."
+        },
+        "score": 0.03076923076923077,
+        "bm25_rank": 5,
+        "dense_rank": 5,
+        "dense_sim": 0.4694182574748993
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s2",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 2",
+          "number": 2,
+          "title": "What we covered this week",
+          "text": "What we covered this week\nWe traced how the region emerged — from orchards to a federally funded research-and-defense economy.\nWe put names to the story — the people who built the region and the institutions behind them.\nWe mapped the unique factors that shaped Silicon Valley and why it’s difficult to find these somewhere else\nWe examined Silicon Valley's less flattering side — structural inequality, the lack of diversity, self-reinforcing advantage, and the gap between the Valley's founding myths and its history.\nWe connected the 1960s Bay Area counterculture to the birth of the personal computer.\nSpeaker notes: Formal phrasing for the 'dark side': structural inequality / lack of diversity / self-reinforcing (vicious-cycle) advantage / myths and their paradoxes."
+        },
+        "score": 0.02976190476190476,
+        "bm25_rank": 12,
+        "dense_rank": 3,
+        "dense_sim": 0.48801082372665405
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s6",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 6 (part 1)",
+          "number": 6,
+          "title": "How Silicon Valley emerged",
+          "text": "How Silicon Valley emerged\n• Before the war it was orchards — the “Valley of Heart's Delight” — with a small radio-and-electronics cluster (Federal Telegraph; Hewlett-Packard, 1939).\n• World War II changed the scale. Vannevar Bush's Office of Scientific Research and Development poured federal money into university labs; Stanford's Fred Terman ran a wartime research lab and returned determined to tie Stanford to defense work.\n• The Cold War kept the money flowing — microwave, electronics, missiles. Lockheed Missiles & Space moved to Sunnyvale in 1956 and was the Valley's largest employer for decades.\n• Semiconductors spun out of that ecosystem: Shockley (1956) → Fairchild (1957) → Intel (1968). In 1958, ~80% of Fairchild's revenue came from government contracts.\n• Sputnik (1957) triggered another surge — NASA, ARPA, and the National Defense Education Act (1958): money for space, and for universities.\n• It was never insulated from politics or the business cycle. Defense budgets and the tech stock market rise and fall together — Washington shifts or a recession hits, the Valley lays off and grants dry up, then it booms on the next wave (chips → PCs → internet → AI). O'Mara calls this “boom and bust.”"
+        },
+        "score": 0.02946236559139785,
+        "bm25_rank": 15,
+        "dense_rank": 2,
+        "dense_sim": 0.5000741481781006
+      }
+    ],
+    "raw_output": "{\n  \"claims\": [\n    {\n      \"text\": \"California's non-enforcement of non-competes enabled talent mobility.\",\n      \"citations\": [\n        1,\n        3,\n        4\n      ]\n    }\n  ],\n  \"status\": \"answered\",\n  \"note\": \"The provided passages indicate that California's refusal to enforce non-competes kept talent moving, which allowed engineers to job-hop and ideas and talent to cross-pollinate, making the region more dynamic than Boston's Route 128 [2, 3, 4].\"\n}",
+    "verification": {
+      "status": "answered",
+      "model_status": "answered",
+      "claims": [
+        {
+          "text": "California's non-enforcement of non-competes enabled talent mobility.",
+          "citations": [
+            1,
+            3,
+            4
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        }
+      ],
+      "downgraded": false,
+      "reason": "The provided passages indicate that California's refusal to enforce non-competes kept talent moving, which allowed engineers to job-hop and ideas and talent to cross-pollinate, making the region more dynamic than Boston's Route 128 [2, 3, 4]."
+    },
+    "seconds_retrieval": 0.023,
+    "seconds_model": 3.84,
+    "network": "online",
+    "memory": {
+      "ollama_loaded": [
+        {
+          "model": "gemma4:e2b-it-qat",
+          "size_gb": 3.73,
+          "gpu_gb": 3.73
+        },
+        {
+          "model": "embeddinggemma:300m",
+          "size_gb": 0.68,
+          "gpu_gb": 0.68
+        }
+      ],
+      "ollama_process_rss_gb": 0.03,
+      "system_used_gb": 13.38
+    },
+    "model_stats": {
+      "total_duration": 3839898667,
+      "load_duration": 1369167,
+      "prompt_eval_count": 1725,
+      "prompt_eval_duration": 1472762000,
+      "eval_count": 135,
+      "eval_duration": 2345074000
+    }
+  },
+  "auto_assessment": {
+    "retrieval_found_expected": true,
+    "expected_passage_ranks": {
+      "week-2-section:s15": 2,
+      "week-5-section:s7": 3
+    },
+    "behavior_expected": "answered",
+    "behavior_actual": "answered",
+    "behavior_ok": true,
+    "cites_expected_passage": true,
+    "all_claims_supported": true
+  }
+}

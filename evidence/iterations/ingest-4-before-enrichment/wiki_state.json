@@ -1,0 +1,678 @@
+{
+  "notes": {
+    "stanford research park": {
+      "id": "stanford-research-park",
+      "title": "Stanford Research Park",
+      "category": "Organizations",
+      "summaries": {
+        "week-2-section": "Stanford Research Park is the first university-owned industrial park, created by leasing land that the university was barred from selling."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "Fred Terman created the Stanford Research Park (1951) by leasing land the university could not sell.",
+            "slides": [
+              8
+            ]
+          },
+          {
+            "text": "The Research Park fostered a working loop where companies recruited students and funded research from the university.",
+            "slides": [
+              8
+            ]
+          },
+          {
+            "text": "Fred Terman promoted an applied-engineering culture at Stanford to serve the military-industrial complex.",
+            "slides": [
+              8
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Silicon Valley Pioneers",
+          "reason": "Fred Terman is a key figure associated with the creation of Stanford Research Park."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "venture capital": {
+      "id": "venture-capital",
+      "title": "Venture Capital",
+      "category": "Concepts",
+      "summaries": {
+        "week-2-section": "Venture capital is a form of investment that finances high-risk startups by taking equity and absorbing potential losses, which was initially supported by government programs."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "Georges Doriot is cited as the first venture capitalist, operating ARDC (1946) and funding DEC.",
+            "slides": [
+              12
+            ]
+          },
+          {
+            "text": "The federal SBIC program (1958) leveraged private risk capital by lending government money for every dollar of private capital.",
+            "slides": [
+              5,
+              13
+            ]
+          },
+          {
+            "text": "Venture capital has become an insular 'old-boys network' where insider connections dictate deal flow.",
+            "slides": [
+              13
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Origins of Silicon Valley",
+          "reason": "Venture Capital is a form of investment that helped finance the high-risk startups central to the emergence of Silicon Valley."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "counterculture etho": {
+      "id": "counterculture-ethos",
+      "title": "Counterculture Ethos",
+      "category": "Concepts",
+      "summaries": {
+        "week-2-section": "The counterculture ethos of the 1960s merged with technology, leading to a philosophy of personal liberation through computing."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "The Berkeley Free Speech Movement (1964) was part of the Bay Area's counterculture, which distrusted big institutions.",
+            "slides": [
+              14
+            ]
+          },
+          {
+            "text": "Lee Felsenstein and Pam Hardt-English created Community Memory, a public computer terminal in a Berkeley record store.",
+            "slides": [
+              12,
+              14
+            ]
+          },
+          {
+            "text": "The anti-establishment ethos became the self-image of the industry, surviving even as companies became large corporations.",
+            "slides": [
+              14
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Origins of Silicon Valley",
+          "reason": "The counterculture ethos of the 1960s merged with technology, contributing to the ethos of the industry during Silicon Valley's emergence."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "legal system": {
+      "id": "legal-system",
+      "title": "Legal System",
+      "category": "Concepts",
+      "summaries": {
+        "week-2-section": "California's legal framework supports tech innovation by allowing firms to take equity and by prohibiting non-compete agreements."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "Valley law firms built the scaffolding for startups by taking equity instead of fees, similar to venture capital.",
+            "slides": [
+              5,
+              15
+            ]
+          },
+          {
+            "text": "California's refusal to enforce non-competes allows engineers to job-hop, promoting the cross-pollination of ideas.",
+            "slides": [
+              5,
+              15
+            ]
+          },
+          {
+            "text": "The same law firms may draft term sheets for investors and the startup, creating an inherent conflict of interest.",
+            "slides": [
+              15
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Venture Capital",
+          "reason": "The legal system's practice of valley law firms taking equity instead of fees is similar to the model used by venture capital."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "team start up competition": {
+      "id": "team-start-up-competition",
+      "title": "Team Start-Up Competition",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-3-section": "The Team Start-Up Competition requires students to adopt a real early-stage startup, interview its founder, and pitch it at Demo Day, accounting for 20% of the course grade."
+      },
+      "facts": {
+        "week-3-section": [
+          {
+            "text": "The competition is worth 20% of the course grade, plus 5% for the founder interview.",
+            "slides": [
+              3
+            ]
+          },
+          {
+            "text": "The competition arc includes picking a startup, submitting a Start-Up Proposal due 10/11, and presenting the founder interview on 10/27–10/30.",
+            "slides": [
+              3
+            ]
+          },
+          {
+            "text": "Teams must choose four roles: Team Lead, Industry Lead, Finance Lead, and Marketing & Tech Lead.",
+            "slides": [
+              3
+            ]
+          },
+          {
+            "text": "Demo Days are scheduled for 11/13, 11/17, 11/19, and 11/20, with the Final Competition on 12/1.",
+            "slides": [
+              3
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Founder Interview",
+          "reason": "The Team Start-Up Competition requires students to conduct a founder interview as part of its requirements."
+        },
+        {
+          "title": "Startup Selection Rules",
+          "reason": "The Team Start-Up Competition requires students to adopt a real early-stage startup, which is governed by selection rules."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "startup selection rule": {
+      "id": "startup-selection-rules",
+      "title": "Startup Selection Rules",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-3-section": "Startups must meet specific criteria to be eligible for the competition, including being pre-Series A, founded in Silicon Valley, and no more than three years old."
+      },
+      "facts": {
+        "week-3-section": [
+          {
+            "text": "A startup must be pre–Series A, founded in Silicon Valley (SF / East Bay), no more than 3 years old, and have only seed funding.",
+            "slides": [
+              4
+            ]
+          },
+          {
+            "text": "Startups can be found through Y Combinator, Berkeley SkyDeck, or a16z Speedrun.",
+            "slides": [
+              4
+            ]
+          },
+          {
+            "text": "Teams must claim their chosen startup in the shared Google Sheet on a first-come, first-served basis.",
+            "slides": [
+              4
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Team Start-Up Competition",
+          "reason": "Startup Selection Rules define the criteria for eligibility in the Team Start-Up Competition."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "startup research resource": {
+      "id": "startup-research-resources",
+      "title": "Startup Research Resources",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-3-section": "Several online platforms are provided to help students research and verify the details of potential startups."
+      },
+      "facts": {
+        "week-3-section": [
+          {
+            "text": "Y Combinator directory can be filtered by Status = Active, Batch = recent, Industry, and Location = SF Bay Area.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "Berkeley SkyDeck portfolio lists Berkeley-affiliated founders, referencing current Batch and Pad-13 cohorts.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "Pitchbook is a database used to confirm a startup's stage, age, and HQ, with limits of ≤ 10 rows/day and ≤ 25 rows/month for UCB students.",
+            "slides": [
+              6
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Startup Selection Rules",
+          "reason": "Startup Research Resources provides specific tools like the Y Combinator directory and Pitchbook to help students verify details for potential startups, which relates to the rules for selecting them."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "professional profile building": {
+      "id": "professional-profile-building",
+      "title": "Professional Profile Building",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-5-section": "Building a professional profile involves gaining experience through various activities that provide evidence and connections."
+      },
+      "facts": {
+        "week-5-section": [
+          {
+            "text": "Middle steps to build a profile include earning a certification, joining a club, entering a competition, and doing pro bono work.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "Each profile-building activity provides evidence, a story, and people who can vouch for the individual.",
+            "slides": [
+              5
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Team Start-Up Competition",
+          "reason": "Entering a competition is listed as a middle step to build a professional profile."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "silicon valley pioneer": {
+      "id": "silicon-valley-pioneers",
+      "title": "Silicon Valley Pioneers",
+      "category": "People",
+      "summaries": {
+        "week-2-section": "Several individuals were instrumental in shaping the technological and institutional foundations of Silicon Valley."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "Vannevar Bush ran WWII federal R&D and advocated for permanent federal science funding with 'Science, the Endless Frontier' (1945).",
+            "slides": [
+              12
+            ]
+          },
+          {
+            "text": "Fred Terman is known as the 'Father of Silicon Valley' for bringing the MIT military/industry model to Stanford.",
+            "slides": [
+              12
+            ]
+          },
+          {
+            "text": "William Shockley co-invented the transistor in 1956, leading to Shockley Semiconductor (1956).",
+            "slides": [
+              12
+            ]
+          },
+          {
+            "text": "Arthur Rock financed the 'Traitorous Eight' and made 'venture capitalist' a job title by funding and chairing Intel.",
+            "slides": [
+              12
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Stanford Research Park",
+          "reason": "Fred Terman brought the MIT military/industry model to Stanford, which led to the creation of Stanford Research Park."
+        },
+        {
+          "title": "Venture Capital",
+          "reason": "Arthur Rock made 'venture capitalist' a job title by funding and chairing Intel."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "five pillar of silicon valley": {
+      "id": "five-pillars-of-silicon-valley",
+      "title": "Five Pillars of Silicon Valley",
+      "category": "Concepts",
+      "summaries": {
+        "week-2-section": "The five pillars are the foundational elements that have shaped and maintained Silicon Valley's competitive edge over the long term."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "The state / government policy War and great-power competition have driven US innovation for 80 years.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "Research universities supply the people, with Stanford noted for its applied-engineering culture and Research Park.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "Venture capital provides funding for ventures that banks would not touch, often taking equity.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "Immigrants constitute a significant portion of high-tech firms and Bay Area residents.",
+            "slides": [
+              5
+            ]
+          },
+          {
+            "text": "The legal system in California supports innovation by refusing to enforce non-competes.",
+            "slides": [
+              5
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Immigrant Founders",
+          "reason": "Immigrants constitute a significant portion of high-tech firms and Bay Area residents, which is one of the five pillars."
+        },
+        {
+          "title": "Venture Capital",
+          "reason": "Venture capital provides funding for ventures that banks would not touch, which is one of the five pillars."
+        },
+        {
+          "title": "Legal System",
+          "reason": "The legal system in California supports innovation by refusing to enforce non-competes, which is one of the five pillars."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "origin of silicon valley": {
+      "id": "origins-of-silicon-valley",
+      "title": "Origins of Silicon Valley",
+      "category": "Concepts",
+      "summaries": {
+        "week-2-section": "Silicon Valley emerged from an agricultural area, evolving into a federally funded research and defense economy driven by wartime and Cold War investment."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "Before the war, the area was known as the “Valley of Heart's Delight” and featured a small radio-and-electronics cluster.",
+            "slides": [
+              6
+            ]
+          },
+          {
+            "text": "World War II saw Vannevar Bush's Office of Scientific Research and Development pour federal money into university labs.",
+            "slides": [
+              6
+            ]
+          },
+          {
+            "text": "Sputnik (1957) triggered a surge in funding through NASA, ARPA, and the National Defense Education Act (1958).",
+            "slides": [
+              6
+            ]
+          },
+          {
+            "text": "The ecosystem led to the spin-out of semiconductors: Shockley (1956) $\\rightarrow$ Fairchild (1957) $\\rightarrow$ Intel (1968).",
+            "slides": [
+              6
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Stanford Research Park",
+          "reason": "Silicon Valley Emergence is directly related to Stanford Research Park as the latter is a physical manifestation of the research ecosystem that emerged."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "silicon valley vs route 128": {
+      "id": "silicon-valley-vs-route-128",
+      "title": "Silicon Valley vs Route 128",
+      "category": "Concepts",
+      "summaries": {
+        "week-5-section": "The course compares the networked Silicon Valley model with the more insular Route 128 model."
+      },
+      "facts": {
+        "week-5-section": [
+          {
+            "text": "Saxenian contrasts the open, networked Silicon Valley with the hierarchical, insular Route 128.",
+            "slides": [
+              7
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Origins of Silicon Valley",
+          "reason": "The course compares the networked Silicon Valley model with the more insular Route 128 model."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "midterm theme": {
+      "id": "midterm-themes",
+      "title": "Midterm Themes",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-5-section": "The course explores several major themes related to Silicon Valley, including immigration, the role of the state, and regional models."
+      },
+      "facts": {
+        "week-5-section": [
+          {
+            "text": "Universities draw global talent, leading many students to intern, get hired, and stay.",
+            "slides": [
+              7
+            ]
+          },
+          {
+            "text": "Government funded foundational tech examples include DARPA, ARPANET, and GPS, supporting Mazzucato's argument.",
+            "slides": [
+              7
+            ]
+          },
+          {
+            "text": "California's non-enforcement of non-competes enabled talent mobility.",
+            "slides": [
+              7
+            ]
+          },
+          {
+            "text": "Saxenian contrasts the open, networked Silicon Valley with the hierarchical, insular Route 128.",
+            "slides": [
+              7
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Silicon Valley vs Route 128",
+          "reason": "Saxenian contrasts the open, networked Silicon Valley with the hierarchical, insular Route 128."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "midterm exam": {
+      "id": "midterm-exam",
+      "title": "Midterm Exam",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-5-section": "The Midterm Exam is scheduled for Thursday 10/1 during lecture and will be open note and open book."
+      },
+      "facts": {
+        "week-5-section": [
+          {
+            "text": "Midterm will be held on Thursday 10/1 during lecture in the lecture classroom.",
+            "slides": [
+              6
+            ]
+          },
+          {
+            "text": "The exam format is open note and open book, requiring the spiral notebook, Course Reader, and The Code.",
+            "slides": [
+              6
+            ]
+          },
+          {
+            "text": "The exam will consist of 1 or 2 essays on big-picture themes.",
+            "slides": [
+              6
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Midterm Themes",
+          "reason": "The Midterm Exam will consist of 1 or 2 essays on big-picture themes."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "founder interview": {
+      "id": "founder-interview",
+      "title": "Founder Interview",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-3-section": "The founder interview is a graded checkpoint where the entire team must participate in a 30–60 minute discussion with the startup's founder or a tech professional."
+      },
+      "facts": {
+        "week-3-section": [
+          {
+            "text": "The interview should be 30–60 minutes long, conducted on Zoom or in person, with every team member present.",
+            "slides": [
+              7
+            ]
+          },
+          {
+            "text": "The deliverable requires 3 slides and a 5–7 minute presentation with equal speaking time.",
+            "slides": [
+              7
+            ]
+          },
+          {
+            "text": "Teams should prepare 4–5 core questions, with one person moderating and one taking notes.",
+            "slides": [
+              7
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Team Start-Up Competition",
+          "reason": "The Founder Interview Process is a graded checkpoint within the Team Start-Up Competition."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "founder outreach": {
+      "id": "founder-outreach",
+      "title": "Founder Outreach",
+      "category": "Course Logistics",
+      "summaries": {
+        "week-3-section": "Students are advised to begin outreach immediately due to the time founders take to respond, and they should use professional methods to contact founders."
+      },
+      "facts": {
+        "week-3-section": [
+          {
+            "text": "Founders can take 2–3 weeks to reply, so teams should line up a backup person early.",
+            "slides": [
+              8
+            ]
+          },
+          {
+            "text": "Methods for reaching founders include SkyDeck company pages, LinkedIn, and the YC company page.",
+            "slides": [
+              8
+            ]
+          },
+          {
+            "text": "Emails must be professional, stating who the student is, the class, why they chose the company, and proposing two specific times for a 30–45 minute Zoom call.",
+            "slides": [
+              8
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Founder Interview",
+          "reason": "The Founder Outreach Strategy is the initial step in the Founder Interview Process."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    },
+    "immigrant founder": {
+      "id": "immigrant-founders",
+      "title": "Immigrant Founders",
+      "category": "Concepts",
+      "summaries": {
+        "week-5-section": "Immigrants have historically been drawn to Silicon Valley for education, subsequently becoming company founders."
+      },
+      "facts": {
+        "week-2-section": [
+          {
+            "text": "About 25% of US high-tech firms had an immigrant founder; about 40% of Valley firms by the internet era.",
+            "slides": [
+              15
+            ]
+          }
+        ],
+        "week-5-section": [
+          {
+            "text": "Immigrants have for decades come to Silicon Valley for education and become company founders.",
+            "slides": [
+              8
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "title": "Origins of Silicon Valley",
+          "reason": "The note on Immigrant Founders describes a historical trend of immigrants moving to Silicon Valley for education and founding companies, which is part of the origins of the area."
+        }
+      ],
+      "model": "gemma4:e4b-it-qat"
+    }
+  },
+  "aliases": {
+    "key figure": "silicon valley pioneer",
+    "five pillar": "five pillar of silicon valley",
+    "silicon valley emergence": "origin of silicon valley",
+    "regional model": "silicon valley vs route 128",
+    "silicon valley theme": "midterm theme",
+    "midterm exam logistic": "midterm exam",
+    "founder interview process": "founder interview",
+    "founder outreach strategy": "founder outreach",
+    "immigration in silicon valley": "immigrant founder"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "week-2-section": {
+    "label": "Week 2 Section",
+    "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+    "filename": "POLECON156_Week2_DiscussionSection.pptx",
+    "sha256": "59fa0073a9d979001252b951e5c676f14b3cadbbe2d327b1f38bd2c01401c8d3",
+    "units": 17,
+    "summary": "This source provides a comprehensive review of the history of Silicon Valley, detailing the five key pillars that fostered its growth. It traces the region's evolution from agricultural land to a global tech powerhouse driven by government funding, academic innovation, venture capital, immigration, and specific legal frameworks.",
+    "ingested_at": "2026-09-28 18:16:38",
+    "model": "gemma4:e4b-it-qat",
+    "note": ""
+  },
+  "week-3-section": {
+    "label": "Week 3 Section",
+    "path": "raw/POLECON156_Week3_DiscussionSection.pptx",
+    "filename": "POLECON156_Week3_DiscussionSection.pptx",
+    "sha256": "9abb04af1d3cbb6dc8c42623cbd35507885131585e84fab6d7bdf7751144f0b3",
+    "units": 10,
+    "summary": "This source outlines the logistics and requirements for the Team Start-Up Competition in POLECON 156, focusing heavily on the process of selecting a startup and conducting a founder interview. It details deadlines, team roles, and strategies for reaching out to founders in the Silicon Valley ecosystem.",
+    "ingested_at": "2026-09-28 18:18:33",
+    "model": "gemma4:e4b-it-qat",
+    "note": "Slides 4-5 of the original deck (team rosters with student names) were removed before adding it to this public repo (student privacy / FERPA). Slide numbers here refer to the redacted file."
+  },
+  "week-4-reflection": {
+    "label": "Week 4 Reflection",
+    "path": "raw/POLECON156_Week4_Reflection.pptx",
+    "filename": "POLECON156_Week4_Reflection.pptx",
+    "sha256": "eaefe44c4ade309574016f4a6370557c3d5f39d604e5e79e8d02040d4c832759",
+    "units": 1,
+    "summary": "This source is a reflection prompt for Week 4, requiring students to answer questions about early online retail challenges and the motivations behind the creation of Google.",
+    "ingested_at": "2026-09-29 19:52:08",
+    "model": "gemma4:e4b-it-qat",
+    "note": ""
+  },
+  "week-5-section": {
+    "label": "Week 5 Section",
+    "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+    "filename": "POLECON156_Week5_DiscussionSection.pptx",
+    "sha256": "eeb4f678f3aaf0aef1b24649844ca148cc2f652475488bb88ac38fe45aa98a1b",
+    "units": 12,
+    "summary": "This source provides logistical information about the upcoming midterm exam and outlines key themes from the course readings. It also offers advice on building a professional profile and practicing essay writing skills.",
+    "ingested_at": "2026-09-28 18:20:13",
+    "model": "gemma4:e4b-it-qat",
+    "note": ""
+  }
+}

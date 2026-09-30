@@ -1,0 +1,28 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Machine files rebuilt by `wiki ingest` (the retrieval index and embeddings)
+data/index/
+# Personal run logs (every command you type). Evidence cards in evidence/ ARE committed.
+data/logs/
+
+# Chat drafts saved with /save are personal working files
+outputs/
+
+# Obsidian's per-device settings
+vault/.obsidian/workspace*.json
+vault/.obsidian/cache
+
+# Secrets (online mode only)
+.env
+
+# macOS
+.DS_Store
+
+# Obsidian settings created if the repo root is opened by mistake (the vault is vault/)
+/.obsidian/
+
+# Course assignment brief (instructor material, kept locally only)
+ASSIGNMENT.md

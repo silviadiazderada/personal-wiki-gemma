@@ -1,0 +1,57 @@
+{
+  "query": "Stanford land lease",
+  "method": "hybrid: bm25 + embeddinggemma:300m (RRF)",
+  "hits": [
+    {
+      "passage": {
+        "id": "week-2-section:s8",
+        "kind": "source",
+        "source_id": "week-2-section",
+        "label": "Week 2 Section",
+        "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+        "locator": "slide 8",
+        "number": 8,
+        "title": "What made Stanford different",
+        "text": "What made Stanford different\n• Land it could not sell. Stanford held a large endowment of land it was barred from selling; Fred Terman's answer was to lease it — creating Stanford Research Park (1951), the first university-owned industrial park.\n• Proximity became collaboration. Putting technology firms next to campus created a working loop: companies recruited students, hired faculty as consultants, funded research, and spun out of Stanford labs. Terman had already done this in miniature with Hewlett and Packard.\n• A deliberate tilt toward industry and the military. Terman moved the university's resources into science and engineering and built an applied-engineering culture explicitly to serve the military-industrial complex — where most universities kept industry at arm's length.\nSpeaker notes: One cold call: 'What did Stanford do that a normal research university would not?' Answer: it fused the university with industry and the military on purpose."
+      },
+      "score": 0.03252247488101534,
+      "bm25_rank": 1,
+      "dense_rank": 2,
+      "dense_sim": 0.5499646663665771
+    },
+    {
+      "passage": {
+        "id": "wiki:stanford-research-park",
+        "kind": "wiki",
+        "source_id": "wiki",
+        "label": "Stanford Research Park",
+        "path": "wiki/Organizations/Stanford Research Park.md",
+        "locator": "wiki note",
+        "number": 0,
+        "title": "Stanford Research Park",
+        "text": "# Stanford Research Park\n\nStanford Research Park is the first university-owned industrial park, created by leasing land that Stanford was barred from selling.\n\n## Key points\n- Stanford held a large endowment of land it was barred from selling, which Terman leased to create the Research Park in 1951. (Week 2 Section, slide 8)\n\n## Related notes\n- Fred Terman: Fred Terman created Stanford Research Park by leasing land that Stanford was barred from selling.\n\n## Sources\n- Original slides: POLECON156_Week2_DiscussionSection.pptx · session note: Week 2 Section"
+      },
+      "score": 0.03252247488101534,
+      "bm25_rank": 2,
+      "dense_rank": 1,
+      "dense_sim": 0.6206843852996826
+    },
+    {
+      "passage": {
+        "id": "wiki:fred-terman",
+        "kind": "wiki",
+        "source_id": "wiki",
+        "label": "Fred Terman",
+        "path": "wiki/People/Fred Terman.md",
+        "locator": "wiki note",
+        "number": 0,
+        "title": "Fred Terman",
+        "text": "# Fred Terman\n\nFred Terman is recognized as the 'Father of Silicon Valley' for establishing the model of linking academia with industry at Stanford.\n\n## Key points\n- Fred Terman ran a wartime research lab and returned determined to tie Stanford to defense work. (Week 2 Section, slide 6)\n- Terman created Stanford Research Park (1951), the first university-owned industrial park. (Week 2 Section, slide 8)\n- He brought the MIT military/industry model to Stanford, fostering an applied-engineering culture. (Week 2 Section, slide 12)\n\n## Related notes\n- Stanford Research Park: Fred Terman created Stanford Research Park, the first university-owned industrial park.\n- Silicon Valley Pioneers: Terman is profiled there as the 'Father of Silicon Valley'.\n- Vannevar Bush: Bush's wartime federal R&D money flowed into university labs like Terman's (slide 6).\n\n## Sources\n- Original slides: POLECON156_Week2_DiscussionSection.pptx · session note: Week 2 Section"
+      },
+      "score": 0.03125763125763126,
+      "bm25_rank": 5,
+      "dense_rank": 3,
+      "dense_sim": 0.43958190083503723
+    }
+  ]
+}

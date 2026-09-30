@@ -1,0 +1,202 @@
+{
+  "test": {
+    "id": "test-1",
+    "kind": "direct, one source",
+    "question": "What was the SBIC program and how did it multiply venture capital?",
+    "expected_behavior": "answered",
+    "expected_passages": [
+      "week-2-section:s13"
+    ],
+    "also_relevant": [
+      "week-2-section:s5"
+    ],
+    "expected_answer": "The Small Business Investment Company program, created by the 1958 Small Business Investment Act. The federal government licensed private investment funds and lent roughly $2-$3 of low-cost government money for every $1 of private capital, which multiplied the early risk-capital pool and seeded the Valley's first VC firms.\n"
+  },
+  "result": {
+    "question": "What was the SBIC program and how did it multiply venture capital?",
+    "mode": "local",
+    "model": "gemma4:e4b-it-qat",
+    "retrieval_method": "hybrid: bm25 + embeddinggemma:300m (RRF)",
+    "hits": [
+      {
+        "passage": {
+          "id": "week-2-section:s13",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 13 (part 1)",
+          "number": 13,
+          "title": "Venture capital — why it mattered, and why it stayed closed",
+          "text": "Venture capital — why it mattered, and why it stayed closed\n• It financed the un-financeable. A bank wants collateral and steady repayment; a startup has neither. Venture capital put in equity, took a board seat, and absorbed the loss when a company failed — which made funding high-risk ventures possible at all.\n• The government primed the pump — the SBIC. The 1958 Small Business Investment Act created the Small Business Investment Company program: the federal government licensed private investment funds and leveraged them, lending roughly $2–$3 of low-cost government money for every $1 of private capital. It multiplied the early risk-capital pool and seeded the Valley's first firms (Draper, Gaither & Anderson, 1959).\n• But it became a closed circle. Venture capital is still an insular “old-boys network.” Many partners are former founders who back people like themselves; talent is evenly distributed, opportunity is not. Some rise in East and South Asian representation — very few Latino or Black investors. Who hears about a deal, and who gets the introduction, still favors insiders.\nJohn Doerr, on “pattern recognition” (O'Mara, p. 75): backing “white male nerds who dropped out of Harvard or Stanford and have no social life.”"
+        },
+        "score": 0.03278688524590164,
+        "bm25_rank": 1,
+        "dense_rank": 1,
+        "dense_sim": 0.5788015723228455
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s13.2",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 13 (part 2)",
+          "number": 13,
+          "title": "Venture capital — why it mattered, and why it stayed closed",
+          "text": "Venture capital — why it mattered, and why it stayed closed\nSpeaker notes: Fund structure and the 'good VC' checklist are deliberately left out. Focus: why VC exists, the SBIC as government scaffolding, the diversity problem."
+        },
+        "score": 0.03225806451612903,
+        "bm25_rank": 2,
+        "dense_rank": 2,
+        "dense_sim": 0.4903538227081299
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s5",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 5 (part 1)",
+          "number": 5,
+          "title": "The five pillars",
+          "text": "The five pillars\n1 · The state / government policy War and great-power competition have driven US innovation for 80 years. Federal and military money — WWII, the Cold War, Vannevar Bush's push for permanent research funding, Sputnik → NASA / ARPA / NDEA — built the foundation. In 1958, ~80% of Fairchild's business was government contracts.\n2 · Research universities They supply the people. Stanford above all — Terman's applied-engineering culture, the Research Park, the faculty–student–industry loop — plus Berkeley, San José State, UCSF (biotech), Santa Clara (law).\n3 · Venture capital Funding for ventures banks would never touch. Georges Doriot (1946), then the federal SBIC program (1958) that leveraged private risk capital, then the Valley's own firms from 1959. Decisive — but an insular network.\n4 · Immigrants ~25% of US high-tech firms had an immigrant founder; ~40% of Valley firms by the internet era; ~44% of Bay Area residents are foreign-born. Berkeley and Stanford are the main pipelines.\n5 · The legal system Valley law firms took equity instead of fees and built the scaffolding — incorporation, term sheets, M&A, IPOs. California's refusal to enforce non-competes keeps talent moving.\nRunning through all five: a transversal counterculture / anti-establishment ethos (see later)."
+        },
+        "score": 0.030798389007344232,
+        "bm25_rank": 3,
+        "dense_rank": 7,
+        "dense_sim": 0.33749842643737793
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s9",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 9",
+          "number": 9,
+          "title": "Written reflection",
+          "text": "Written reflection\nTODAY'S PROMPT\nWhy was the venture capital industry so critical to Silicon Valley's rise?\nAnd, according to the first three chapters of The Code, what was the first “venture capitalist” entity in Silicon Valley?\nInstructions\n• 7 minutes (+2 to upload)\n• Handwritten in your spiral notebook — no devices, open-book.\n• One short paragraph per question — BOTH answers on the SAME single page.\n• When you're done, take a photo and upload it to bCourses under this week's reflection.\nSpeaker notes: Reflection is graded randomly — students don't know which weeks. 4 pts (2 quality of answers, 2 thoughtfulness). Reinforce verbally: ONE page, both answers. The 'entity' wording nudges them past just naming a person."
+        },
+        "score": 0.03076923076923077,
+        "bm25_rank": 5,
+        "dense_rank": 5,
+        "dense_sim": 0.3404892385005951
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s17",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 17",
+          "number": 17,
+          "title": "Summary",
+          "text": "Summary\nTHE FIVE PILLARS\n• The state — military and federal money seeded it\n• Universities — Stanford's model supplied the people\n• Venture capital — financed the un-financeable, then closed ranks\n• Immigrants — a growing share of every founding cohort\n• The legal system — equity-taking firms, no non-competes\n…and a counterculture ethos running through all five.\nBEFORE YOU GO\n• Upload your reflection to bCourses — one single page\n• Attendance = your Poll Everywhere response\n• One free discretionary absence — email in advance\n• Devices away unless told otherwise\n• Next week: Apple, Microsoft, Steve Jobs"
+        },
+        "score": 0.028850145288501453,
+        "bm25_rank": 6,
+        "dense_rank": 13,
+        "dense_sim": 0.30779629945755005
+      },
+      {
+        "passage": {
+          "id": "week-2-section:s3",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 3",
+          "number": 3,
+          "title": "Today",
+          "text": "Today\n• 01 · The five pillars that made Silicon Valley — and keep it competitive\n• 02 · How the Valley emerged, and what made Stanford different\n• 03 · Written reflection\n• 04 · Who is this? — Poll Everywhere activity\n• 05 · Venture capital: why it mattered, and why it stayed closed\n• 06 · The counterculture thread · immigrants and the legal system · Janet Yellen"
+        },
+        "score": 0.028782894736842105,
+        "bm25_rank": 4,
+        "dense_rank": 16,
+        "dense_sim": 0.27691930532455444
+      }
+    ],
+    "raw_output": "{\n\"claims\": [\n    {\n        \"text\": \"The 1958 Small Business Investment Act created the Small Business Investment Company program, which was the federal government licensing private investment funds [1].\",\n        \"citations\": [1]\n    },\n    {\n        \"text\": \"The SBIC program leveraged the government by lending roughly $2–$3 of low-cost government money for every $1 of private capital [1].\",\n        \"citations\": [1]\n    },\n    {\n        \"text\": \"This lending multiplied the early risk-capital pool and seeded the Valley's first firms, such as Draper, Gaither & Anderson, in 1959 [1].\",\n        \"citations\": [1]\n    }\n],\n\"status\": \"answered\",\"note\": \"\"\n}",
+    "verification": {
+      "status": "answered",
+      "model_status": "answered",
+      "claims": [
+        {
+          "text": "The 1958 Small Business Investment Act created the Small Business Investment Company program, which was the federal government licensing private investment funds.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 0.92,
+          "verdict": "supported"
+        },
+        {
+          "text": "The SBIC program leveraged the government by lending roughly $2–$3 of low-cost government money for every $1 of private capital.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        },
+        {
+          "text": "This lending multiplied the early risk-capital pool and seeded the Valley's first firms, such as Draper, Gaither & Anderson, in 1959.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 0.93,
+          "verdict": "supported"
+        }
+      ],
+      "downgraded": false,
+      "reason": ""
+    },
+    "seconds_retrieval": 0.032,
+    "seconds_model": 20.5,
+    "network": "offline",
+    "memory": {
+      "ollama_loaded": [
+        {
+          "model": "gemma4:e4b-it-qat",
+          "size_gb": 5.55,
+          "gpu_gb": 5.55
+        },
+        {
+          "model": "embeddinggemma:300m",
+          "size_gb": 0.68,
+          "gpu_gb": 0.68
+        }
+      ],
+      "ollama_process_rss_gb": 0.02,
+      "system_used_gb": 14.69
+    },
+    "model_stats": {
+      "total_duration": 20483158834,
+      "load_duration": 1788125,
+      "prompt_eval_count": 1444,
+      "prompt_eval_duration": 6018061000,
+      "eval_count": 182,
+      "eval_duration": 14419416000
+    }
+  },
+  "auto_assessment": {
+    "retrieval_found_expected": true,
+    "expected_passage_ranks": {
+      "week-2-section:s13": 1
+    },
+    "behavior_expected": "answered",
+    "behavior_actual": "answered",
+    "behavior_ok": true,
+    "cites_expected_passage": true,
+    "all_claims_supported": true
+  }
+}

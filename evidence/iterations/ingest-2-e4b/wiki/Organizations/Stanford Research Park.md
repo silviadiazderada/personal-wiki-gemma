@@ -1,0 +1,23 @@
+---
+id: stanford-research-park
+type: organizations
+sources:
+  - "raw/POLECON156_Week2_DiscussionSection.pptx"
+source_ids: [week-2-section]
+generated_by: gemma4:e4b-it-qat
+updated: 2026-09-27
+reviewed: false
+---
+# Stanford Research Park
+
+Stanford Research Park is the first university-owned industrial park, created by leasing land that Stanford was barred from selling.
+
+## Key points
+- Fred Terman created the Stanford Research Park in 1951 by leasing land the university could not sell. ([[raw/POLECON156_Week2_DiscussionSection.pptx|Week 2 Section]], slide 8)
+- The Research Park fostered a working loop where companies recruited students and funded research. ([[raw/POLECON156_Week2_DiscussionSection.pptx|Week 2 Section]], slide 8)
+
+## Related notes
+- [[Fred Terman]]: Fred Terman created the Stanford Research Park in 1951 by leasing land the university could not sell.
+
+## Sources
+- [[raw/POLECON156_Week2_DiscussionSection.pptx|Week 2 Section]] (discussed in [[Week 2 Section]])

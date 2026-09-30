@@ -1,0 +1,160 @@
+{
+  "test": null,
+  "result": {
+    "question": "Where did students have to upload their Week 2 reflection?",
+    "mode": "local",
+    "model": "gemma4:e4b-it-qat",
+    "retrieval_method": "hybrid: bm25 + embeddinggemma:300m (RRF)",
+    "hits": [
+      {
+        "passage": {
+          "id": "week-2-section:s9",
+          "kind": "source",
+          "source_id": "week-2-section",
+          "label": "Week 2 Section",
+          "path": "raw/POLECON156_Week2_DiscussionSection.pptx",
+          "locator": "slide 9",
+          "number": 9,
+          "title": "Written reflection",
+          "text": "Written reflection\nTODAY'S PROMPT\nWhy was the venture capital industry so critical to Silicon Valley's rise?\nAnd, according to the first three chapters of The Code, what was the first “venture capitalist” entity in Silicon Valley?\nInstructions\n• 7 minutes (+2 to upload)\n• Handwritten in your spiral notebook — no devices, open-book.\n• One short paragraph per question — BOTH answers on the SAME single page.\n• When you're done, take a photo and upload it to bCourses under this week's reflection.\nSpeaker notes: Reflection is graded randomly — students don't know which weeks. 4 pts (2 quality of answers, 2 thoughtfulness). Reinforce verbally: ONE page, both answers. The 'entity' wording nudges them past just naming a person."
+        },
+        "score": 0.03278688524590164,
+        "bm25_rank": 1,
+        "dense_rank": 1,
+        "dense_sim": 0.4809679687023163
+      },
+      {
+        "passage": {
+          "id": "week-5-section:s9",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 9",
+          "number": 9,
+          "title": "Week 5 Reflection",
+          "text": "Week 5 Reflection\nIn class, we discussed the role law firms play in a start-up's success. In a short paragraph (5 lines aprox.) , explain what role law firms play in determining whether a start-up succeeds. Include a citation from the reading that supports one or more of your points, with the page number.\n8 minutes, plus 2 to upload · handwritten in your spiral notebook · no devices\nOpen book: Course Reader and The Code allowed\nA short paragraph (5 sentences) in ONE page.\nUpload a photo to bCourses: Week 5 Reflection"
+        },
+        "score": 0.03225806451612903,
+        "bm25_rank": 2,
+        "dense_rank": 2,
+        "dense_sim": 0.47617313265800476
+      },
+      {
+        "passage": {
+          "id": "week-4-reflection:s1",
+          "kind": "source",
+          "source_id": "week-4-reflection",
+          "label": "Week 4 Reflection",
+          "path": "raw/POLECON156_Week4_Reflection.pptx",
+          "locator": "slide 1",
+          "number": 1,
+          "title": "Written reflection",
+          "text": "Written reflection\nTODAY'S PROMPT\n1. O'Mara writes that early online retail faced “exactly the kind of thorny problem Jeff Bezos loved to solve.” What was that problem, and how did Bezos solve it?\n2. According to O'Mara, what motivated Sergey Brin and Larry Page to create a search engine? What role did the federal government play in the early stages of their project?\nInstructions\n• 10 minutes\n• Handwritten in your spiral notebook — no devices, open-book (The Code + Course Reader OK).\n• A short paragraph per question — both answers on ONE page.\n• Take a screenshot and upload it to bCourses under Week 4 Reflection."
+        },
+        "score": 0.03149801587301587,
+        "bm25_rank": 4,
+        "dense_rank": 3,
+        "dense_sim": 0.44446128606796265
+      },
+      {
+        "passage": {
+          "id": "week-3-section:s2",
+          "kind": "source",
+          "source_id": "week-3-section",
+          "label": "Week 3 Section",
+          "path": "raw/POLECON156_Week3_DiscussionSection.pptx",
+          "locator": "slide 2",
+          "number": 2,
+          "title": "Written reflection",
+          "text": "Written reflection\nTODAY'S PROMPT\n1. Why was Japan's rise in the electronics industry a “wake-up call” for Silicon Valley in the 1980s?\n2. How did the U.S. government respond — and was its response protectionism, industrial policy, or both?\nInstructions\n• 7 minutes (+2 to upload)\n• Handwritten in your spiral notebook — no devices, open-book (The Code + Course Reader OK).\n• A short paragraph per question — the whole reflection on ONE page.\n• Take a screenshot and upload it to bCourses under Week 3 Reflection.\nSpeaker notes: Graded randomly, 4 pts (2 quality, 2 thoughtfulness). Q1 target: VLSI standardized chip design and split design from manufacturing, so MITI-backed Japanese firms could learn the process and compete. Q2 targets: SEMATECH (DARPA + 14 chip firms), DARPA's $1B Strategic Computing Initiative, the 1986 US–Japan Semiconductor Agreement. China parallel: CHIPS Act + export controls — keep it factual, not partisan."
+        },
+        "score": 0.03125763125763126,
+        "bm25_rank": 3,
+        "dense_rank": 5,
+        "dense_sim": 0.42867547273635864
+      },
+      {
+        "passage": {
+          "id": "week-3-section:s10",
+          "kind": "source",
+          "source_id": "week-3-section",
+          "label": "Week 3 Section",
+          "path": "raw/POLECON156_Week3_DiscussionSection.pptx",
+          "locator": "slide 10",
+          "number": 10,
+          "title": "This week",
+          "text": "This week\n• Upload your Week 3 reflection to bCourses — one page.\n• As a team: shortlist 2–3 startups, meet, choose one by consensus, and claim it in the shared Google Sheet.\n• Team Lead: start the Start-Up Proposal Google Form (due 11pm Sunday 10/11).\n• Draft your founder-interview email and send the first requests.\n• Questions on teams, roles, or eligibility → email me or come to office hours.\nSpeaker notes: Keep the last 5 minutes for team-forming logistics / questions."
+        },
+        "score": 0.031009615384615385,
+        "bm25_rank": 5,
+        "dense_rank": 4,
+        "dense_sim": 0.4364422559738159
+      },
+      {
+        "passage": {
+          "id": "week-5-section:s2",
+          "kind": "source",
+          "source_id": "week-5-section",
+          "label": "Week 5 Section",
+          "path": "raw/POLECON156_Week5_DiscussionSection.pptx",
+          "locator": "slide 2",
+          "number": 2,
+          "title": "Agenda for today:",
+          "text": "Agenda for today:\n1.\nLearnings from last week\n2.\nMidterm: logistics and the big themes\n3.\nWritten reflection (open book, handwritten)\n4.\nPractice essay questions in pairs\n5.\nWrap-up: teams, deadlines, questions"
+        },
+        "score": 0.03007688828584351,
+        "bm25_rank": 7,
+        "dense_rank": 6,
+        "dense_sim": 0.36468812823295593
+      }
+    ],
+    "raw_output": "{\n\"claims\": [\n{\n\"text\": \"Students had to upload their Week 2 reflection to bCourses under this week's reflection [1].\",\n\"citations\": [1]\n}\n],\n\"status\": \"answered\",\"note\": \"\"\n}",
+    "verification": {
+      "status": "answered",
+      "model_status": "answered",
+      "claims": [
+        {
+          "text": "Students had to upload their Week 2 reflection to bCourses under this week's reflection.",
+          "citations": [
+            1
+          ],
+          "invalid_citations": [],
+          "missing_numbers": [],
+          "overlap": 1.0,
+          "verdict": "supported"
+        }
+      ],
+      "downgraded": false,
+      "reason": ""
+    },
+    "seconds_retrieval": 0.048,
+    "seconds_model": 9.91,
+    "network": "offline",
+    "memory": {
+      "ollama_loaded": [
+        {
+          "model": "gemma4:e4b-it-qat",
+          "size_gb": 5.55,
+          "gpu_gb": 5.55
+        },
+        {
+          "model": "embeddinggemma:300m",
+          "size_gb": 0.68,
+          "gpu_gb": 0.68
+        }
+      ],
+      "ollama_process_rss_gb": 0.02,
+      "system_used_gb": 14.88
+    },
+    "model_stats": {
+      "total_duration": 9900729375,
+      "load_duration": 3444750,
+      "prompt_eval_count": 1241,
+      "prompt_eval_duration": 4984433000,
+      "eval_count": 61,
+      "eval_duration": 4818244000
+    }
+  },
+  "auto_assessment": {}
+}

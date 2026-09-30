@@ -1,0 +1,48 @@
+# Fixed ask-mode test set, written BEFORE retrieval was built (2026-09-27).
+# This file is the answer key. It lives outside vault/ so retrieval can never find it.
+# expected_passages use passage ids: <source_id>:s<slide>
+
+- id: test-1
+  kind: direct, one source
+  question: "What was the SBIC program and how did it multiply venture capital?"
+  expected_behavior: answered
+  expected_passages: ["week-2-section:s13"]
+  also_relevant: ["week-2-section:s5"]
+  expected_answer: >
+    The Small Business Investment Company program, created by the 1958 Small Business
+    Investment Act. The federal government licensed private investment funds and lent
+    roughly $2-$3 of low-cost government money for every $1 of private capital, which
+    multiplied the early risk-capital pool and seeded the Valley's first VC firms.
+
+- id: test-2
+  kind: paraphrased (question says "real estate", slide says "land")
+  question: "How did Stanford turn its real estate into an advantage for the tech industry?"
+  expected_behavior: answered
+  expected_passages: ["week-2-section:s8"]
+  also_relevant: ["week-2-section:s6"]
+  expected_answer: >
+    Stanford held land it was barred from selling, so Fred Terman leased it, creating
+    Stanford Research Park (1951), the first university-owned industrial park. Firms next
+    to campus recruited students, hired faculty as consultants, funded research and spun
+    out of Stanford labs.
+
+- id: test-3
+  kind: connects two sources
+  question: "How did California's treatment of non-compete agreements shape Silicon Valley?"
+  expected_behavior: answered
+  expected_passages: ["week-2-section:s15", "week-5-section:s7"]
+  also_relevant: ["week-2-section:s5"]
+  expected_answer: >
+    California does not enforce non-competes (a full ban since 2024), so engineers
+    job-hop and ideas and talent cross-pollinate, making the Valley more dynamic than
+    Boston's Route 128. The Week 5 midterm themes list this "labor rules" point as
+    enabling talent mobility.
+
+- id: test-4
+  kind: unsupported (not in the wiki)
+  question: "What was the U.S. capital gains tax rate in 1990?"
+  expected_behavior: insufficient_evidence
+  expected_passages: []
+  expected_answer: >
+    No source mentions capital gains tax rates. The correct response is an explicit
+    statement that the wiki does not contain this information, with no guessed number.
