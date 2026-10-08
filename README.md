@@ -1,4 +1,4 @@
-# POLECON 156 Course Wiki: local Gemma + RAG
+# Offline AI Teaching Assistant: local Gemma + RAG
 
 A personal wiki and command-line assistant for **POLECON 156: Silicon Valley & the Global Economy** (UC Berkeley, Fall 2026), built from my own discussion-section slides as a GSI. Everything runs on my laptop with a local Gemma model through Ollama, and works with the internet switched off.
 
@@ -84,7 +84,7 @@ Open **`vault/`** (not the repo root) as the Obsidian vault.
 
 Errors are handled with plain messages: Ollama not running, a model not pulled, a missing file or empty index each print what to do next instead of a stack trace. `wiki search` still works when Ollama is off (it falls back to keyword search).
 
-**Optional online mode** (extension, not needed for anything above): `wiki ask "..." --mode online` sends the question and the retrieved passages to Google's hosted `gemma-3-27b-it` via the Gemini API. It needs `GEMINI_API_KEY` in the environment and is never used unless requested. I did not submit online-mode evidence; every result in this repo is local.
+**Optional online mode** (extension, not needed for anything above): `wiki ask "..." --mode online` sends the question and the retrieved passages to Google's hosted `gemma-3-27b-it` via the Gemini API. It needs `GEMINI_API_KEY` in the environment and is never used unless requested. Every result in this repo is local; no online-mode evidence is included.
 
 ---
 
@@ -252,4 +252,4 @@ All earlier results are kept in [`evidence/iterations/`](evidence/iterations/) s
 
 ---
 
-*Built for Fundamentals of AI (UC Berkeley MBA), Assignment 4, with Claude Code as a coding assistant. The course content, source choices, test questions and every correction in the review log are mine.*
+*Built during the Fundamentals of AI course at UC Berkeley Haas, with Claude Code as a coding assistant. The source materials, design choices, test questions and every correction in the review log are mine.*
